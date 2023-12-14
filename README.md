@@ -1,1 +1,1 @@
-# AlgoliaInterview
+# Algolia Interview Project  
