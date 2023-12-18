@@ -1,0 +1,113 @@
+Question 1: 
+
+Hello,
+
+I'm new to search engines, and there are a lot of concepts I'm not educated on. To make my onboarding smoother, it'd help if you could provide me with some definitions of the following concepts:
+
+•	Records
+•	Indexing
+
+I'm also struggling with understanding what types of metrics would be useful to include in the "Custom Ranking."
+
+Cheers, 
+
+George
+
+______________________________________
+RESPONSE:
+
+Dear George,
+
+Thank you for your query! We would be more than happy to assist you in understanding how Algolia works. Before we get deeper into the terminologies, it would also be nice for me understand a bit more about your scenarios. Algolia provides various features to cater to different business needs. A better understanding of your situation helps us to provide you with better solutions.
+
+As for the terms you were asking:
+
+Index
+
+Index is the container of your searchable data. We provide different ways to upload/push different forms of data into our backend platform for further search. "Index" works as a "database" for records to be easily found. For example, you could have an Index of restaurants, famous singers or movies. 
+
+Records
+
+Records are the data you put within Algolia search platform. For example, in an Index of Movie, it may contain different movies and each movie has attributes like "name", "director", "releasing year", "genre" etc. Each movie can form a record, and all the records together form the Movie index. 
+
+Custom Ranking
+
+The custom ranking allows our customers to combine business emphasis into the ranking of showing results. Therefore, any business metric that matters to an end-user could potentially be a criteria.  Here are some examples: Number of likes or reviews, Quantity of purchases, Review stars, etc. The nature of custom ranking allows you to play with your Index data. There are more tricks that I would love to show you based on your business case. I look forward to further discussion with you on this topic.
+
+
+If you have any further questions that I can assist you with, please do not hesitate to reach out! Algolia is always here to help.
+
+Best Regards,
+
+Yue Wang
+Sales Engineer @ Algolia
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Question 2: 
+
+Hello,
+
+Sorry to give you the kind of feedback that I know you do not want to hear, but I really hate the new dashboard design. Clearing and deleting indexes are now several clicks away. I am needing to use these features while iterating, so this is inconvenient.
+
+Regards, 
+
+Matt
+
+______________________________________
+
+RESPONSE:
+
+Dear Matt,
+
+Thank you so much for your feedbacks. I am sorry to hear that you have come across inconvenience while using our dashboards.  for any frustrations you may have experienced when using our dashboard. We constantly work on improving our customers user experience. The purpose of this update is data security, which we always put at a high priority. I would also like to take this opportunity to show your some tricks to interact with our dashboard that could be quite direct and easy. More information could be found in this link: (https://www.algolia.com/doc/guides/getting-started/quick-start/tutorials/getting-started-with-the-dashboard/)
+
+Besides, API integration is also a commonly used method to manage your data. This page could be a good reference: (https://www.algolia.com/doc/api-reference/api-methods/delete-objects/) We have also Algolia Academy at your choice on the platform for further learning. 
+
+We value our customers' feedbacks and we are thrived to provide you with better experiences. Your feedback is noted in our system and we will further research the UI to cater more users. 
+
+Best Regards,
+
+Yue Wang
+Sales Engineer @ Algolia
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Question 3: 
+
+Hi,
+
+I'm looking to integrate Algolia in my website. Will this be a lot of development work for me? What's the high level process look like?
+
+Regards, 
+
+Leo
+______________________________________
+
+RESPONSE:
+
+Dear Leo,
+
+Thanks for reaching out! I'm glad you're considering using Algolia. We would definitely like to hear about your scenarios. Algolia provides various features to cater to different business needs. A better understanding of your situation helps us to provide you with better solutions. We have provided various tools and libraries to reduce your work. There will not be much extra "making the wheels" work left for you.
+
+To start with, I would highly recommend our ‘Getting Started’ docs to get a better understanding of our solution.
+(https://www.algolia.com/doc/guides/getting-started/quick-start/)
+
+A high level process would be basically three steps: 
+1. Create an index
+2. Configure attributes
+3. Send queries and retrieve results.
+
+We have multiple APIs and integration frameworks to work with different languages or backend frameworks. Please let me know more about your development environment so we could provide more precise documentation. 
+
+Some useful links can be found below: 
+
+https://www.algolia.com/doc/
+https://www.algolia.com/doc/guides/getting-started/quick-start/tutorials/quick-start-with-the-api-client/python/?client=python
+https://www.algolia.com/doc/guides/search-ui/search-libraries
+
+Please let me know if you have any further questions or concerns!
+
+Best Regards,
+
+Yue Wang
+Sales Engineer @ Algolia
