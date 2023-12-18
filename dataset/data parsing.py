@@ -38,5 +38,12 @@ df = pd.merge(df1, df2, on = "objectID")
 #id and geo need to be intergers, no line
 df.to_json(totaljson, index=False, orient='records')
 
+#push to algolia
+from algoliasearch.search_client import SearchClient
 
+client = SearchClient.create("0ID4OD4XQ9", "ea507a8fa26bbc05662d550aad4de774")
+index = client.init_index("restaurantINFO")
+
+restaurants = json.load(open(totaljson))
+index.save_objects(restaurants)
 
