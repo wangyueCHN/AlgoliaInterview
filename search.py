@@ -1,6 +1,6 @@
 from algoliasearch.search_client import SearchClient
 
-client = SearchClient.create('0ID4OD4XQ9', 'ea507a8fa26bbc05662d550aad4de774')
+client = SearchClient.create('0ID4OD4XQ9', '')
 index = client.init_index('restaurantINFO')
 
 
